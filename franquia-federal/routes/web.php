@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FranquiaFederalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::name("franquiafederal.")->group(function () {
+
+    Route::get('/', [FranquiaFederalController::class, "index" ])
+        ->name('main.index');
+
 });

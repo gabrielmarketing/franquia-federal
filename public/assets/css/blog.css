@@ -15,7 +15,7 @@
 
       .blog-sidebar .widget > h3:after {
       content: "";
-      background-color: #fc6f5c;
+      background-color: #000000;
       width: 60px;
       height: 3px;
       position: absolute;
@@ -53,7 +53,7 @@
       font-size: 20px;
       }
       .blog-sidebar .search-widget button:hover {
-      color: #fc6f5c;
+      color: #000000;
       }
 
       .blog-sidebar .categories-widget ul li a {
@@ -65,7 +65,7 @@
       position: relative;
       }
       .blog-sidebar .categories-widget ul li a:hover {
-      color: #fc6f5c;
+      color: #000000;
       }
 
       .blog-sidebar .recent-posts-widget > .post + .post {
@@ -84,17 +84,17 @@
       color: #2d2c2c;
       }
       .blog-sidebar .recent-posts-widget h4 a:hover {
-      color: #fc6f5c;
+      color: #000000;
       }
 
       .blog-sidebar .recent-posts-widget .date {
       font-size: 14px;
-      color: #fc6f5c;
+      color: #000000;
       }
 
       .blog-sidebar .tags-widget div > a {
         font-size: 13px;
-        color: #222;
+        color: #000000;
         display: inline-block;
         border: 1px solid #e4e4e4;
         padding: 5px 8px;
@@ -102,13 +102,13 @@
       }
 
       .blog-sidebar .tags-widget div > a:hover {
-      background-color: #fc6f5c;
+      background-color: #000000;
       color: #fff;
-      border-color: #fc6f5c;
+      border-color: #000000;
       }
       .social-profile-blog{
       margin-top: 30px;
-      margin-bottom: 10px;  
+      margin-bottom: 10px;
       }
       .social-profile-blog li{
       display: inline-block;
@@ -126,9 +126,9 @@
       text-align: center;
       }
       .social-profile-blog li a:hover{
-      border:1px solid #fc6f5c;
+      border:1px solid #000000;
       color: #fff;
-      background: #fc6f5c;
+      background: #000000;
       }
 
       .blog-details-post .entry-meta {
@@ -143,7 +143,7 @@
       margin-right: 20px;
       }
       .blog-details-post .entry-meta li i{
-      color: #fc6f5c;
+      color: #000000;
       }
       .entry-media img{
       width: 100%;
@@ -165,7 +165,7 @@
       background-color: #f8f8f8;
       font-style: italic;
       padding: 25px;
-      border-color: #fc6f5c;
+      border-color: #000000;
       margin-bottom: 35px;
       }
 
@@ -267,7 +267,7 @@
       }
       .blog-details-post .comments-area .comment-author-metadata img{
       height: 80px;
-      border:3px solid #fc6f5c; 
+      border:3px solid #fc6f5c;
       width: 80px;
       border-radius: 50%;
       }
@@ -581,7 +581,7 @@
       .social-share {
       margin-top: 30px;
       }
-     
+
       .contact-info-item li {
           margin-bottom: 8px;
       }
@@ -591,4 +591,4 @@
           }
   .blog-grid .post-slide {
     margin-bottom: 30px;
-}    
+}

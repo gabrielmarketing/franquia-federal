@@ -11,10 +11,9 @@
     @includeIf("franquiafederal.template.sections.section9")
     @includeIf("franquiafederal.template.sections.section10")
     @includeIf("franquiafederal.template.sections.section11")
-    @includeIf("franquiafederal.template.sections.section12")
-    @includeIf("franquiafederal.template.sections.section13")
+   {{-- @includeIf("franquiafederal.template.sections.section12")
+    @includeIf("franquiafederal.template.sections.section13")--}}
     @includeIf("franquiafederal.template.sections.section14")
     @includeIf("franquiafederal.template.sections.section15")
     @includeIf("franquiafederal.template.sections.section16")
-    @includeIf("franquiafederal.template.sections.section17")
 @endsection

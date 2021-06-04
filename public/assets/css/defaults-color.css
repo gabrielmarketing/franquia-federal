@@ -1,11 +1,11 @@
-        .overlay{    
+        .overlay{
           height: 100%;
           width: 100%;
-          background:  linear-gradient(-29deg,rgba(193, 15, 65, 0.9) 0,rgba(35, 59, 136, .9) 100%);
-          background: -moz-linear-gradient(-29deg,rgba(193, 15, 65, 0.9) 0,rgba(35, 59, 136, .9) 100%);
-          background: -ms-linear-gradient(-29deg,rgba(193, 15, 65, 0.9) 0,rgba(35, 59, 136, .9) 100%);
-          background: -o-linear-gradient(-29deg,rgba(193, 15, 65, 0.9) 0,rgba(35, 59, 136, .9) 100%);
-          background: linear-gradient(-29deg,rgba(193, 15, 65, 0.9) 0,rgba(35, 59, 136, .9) 100%);
+          background:  linear-gradient(-29deg, rgba(0, 0, 0, 0.9) 0, rgba(45, 45, 45, 0.9) 100%);
+          background: -moz-linear-gradient(-29deg, rgba(0, 0, 0, 0.9) 0, rgba(52, 52, 52, 0.9) 100%);
+          background: -ms-linear-gradient(-29deg, rgba(0, 0, 0, 0.9) 0, rgba(64, 63, 63, 0.9) 100%);
+          background: -o-linear-gradient(-29deg, rgba(0, 0, 0, 0.9) 0, rgba(57, 57, 57, 0.9) 100%);
+          background: linear-gradient(-29deg, rgba(0, 0, 0, 0.9) 0, rgba(60, 60, 60, 0.9) 100%);
       }
       /*blog page*/
 .blog-sidebar .widget > h3:after {
@@ -37,7 +37,7 @@ color: #4e54c8;
     border-color: #4e54c8;
 }
 .slider-area .owl-dot.active {
-background: #c10f41;
+background: #000000;
 }
 .project-details-title h6 {
     color: #4e54c8;

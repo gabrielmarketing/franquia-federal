@@ -1,3 +1,4 @@
+{{--
 <section class="pt-100 pb-100 bg-gray">
     <div class="container">
         <div class="row">
@@ -17,7 +18,7 @@
             <div class="col-md-3">
                 <div class="single-team-inner">
                     <div class="team-iamge">
-                        <img src="{{ asset("assets/images/user/dummy-image.jpg") }}" alt="">
+                        <img src="{{asset("assets/images/user/dummy-image.jpg")}}" alt="">
                     </div>
                     <div class="team-content">
                         <h3>John Smith</h3>
@@ -34,7 +35,7 @@
             <div class="col-md-3">
                 <div class="single-team-inner">
                     <div class="team-iamge">
-                        <img src="{{ asset("assets/images/user/dummy-image.jpg") }}" alt="">
+                        <img src="{{asset("assets/images/user/dummy-image.jpg")}}" alt="">
                     </div>
                     <div class="team-content">
                         <h3>John Smith</h3>
@@ -51,7 +52,7 @@
             <div class="col-md-3">
                 <div class="single-team-inner">
                     <div class="team-iamge">
-                        <img src="{{ asset("assets/images/user/dummy-image.jpg") }}" alt="">
+                        <img src="{{asset("assets/images/user/dummy-image.jpg")}}" alt="">
                     </div>
                     <div class="team-content">
                         <h3>Rondi Doe</h3>
@@ -68,7 +69,7 @@
             <div class="col-md-3">
                 <div class="single-team-inner">
                     <div class="team-iamge">
-                        <img src="{{ asset("assets/images/user/dummy-image.jpg") }}" alt="">
+                        <img src="{{asset("assets/images/user/dummy-image.jpg")}}" alt="">
                     </div>
                     <div class="team-content">
                         <h3>John Doe</h3>
@@ -85,3 +86,4 @@
         </div>
     </div>
 </section>
+--}}

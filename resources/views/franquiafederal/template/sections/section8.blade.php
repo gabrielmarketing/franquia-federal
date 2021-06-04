@@ -1,4 +1,4 @@
-<section class="counter-area" style="background-image: url('{{ asset("public/assets/images/dummy-image-small.jpg") }}'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+<section class="counter-area" style="background-image: url('{{asset("assets/images/background/back1.png")}}'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
     <div class="overlay-7  pt-100 pb-100">
         <div class="container">
             <div class="row">
@@ -11,12 +11,14 @@
                                     <div class="">
                                         <div class="">
                                             <div class="counter-img">
-                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-briefcase"></i>
                                             </div>
                                         </div>
+                                        <div class="text">
+                                            <h4><font color="white">+10 ANOS</font></h4>
+                                        </div>
                                         <div class=" counter-text">
-                                            <h2 class="counter" data-count="1100">1033</h2>
-                                            <h5>Happy Clients</h5>
+                                            <h5>NO MERCADO</h5>
                                         </div>
                                     </div>
 
@@ -28,12 +30,14 @@
                                     <div class="">
                                         <div class="">
                                             <div class="counter-img">
-                                                <i class="fas fa-cloud-download-alt"></i>
+                                                <i class="fas fa-handshake"></i>
                                             </div>
                                         </div>
+                                        <div class="text">
+                                            <h4><font color="white">+5000 CLIENTES</font></h4>
+                                        </div>
                                         <div class=" counter-text">
-                                            <h2 class="counter" data-count="396">1563</h2>
-                                            <h5>App Downloads</h5>
+                                            <h5> ATIVOS</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -44,12 +48,14 @@
                                     <div class="">
                                         <div class="">
                                             <div class="counter-img">
-                                                <i class="fas fa-gem"></i>
+                                                <i class="fas fa-rss-square"></i>
                                             </div>
                                         </div>
+                                        <div class="text">
+                                            <h4><font color="white">Rastreador</font></h4>
+                                        </div>
                                         <div class="counter-text">
-                                            <h2 class="counter" data-count="220">2360</h2>
-                                            <h5>Premium User</h5>
+                                            <h5>Homologado</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -60,12 +66,14 @@
                                     <div class="">
                                         <div class="">
                                             <div class="counter-img">
-                                                <i class="fas fa-handshake"></i>
+                                                <i class="far fa-sun"></i>
                                             </div>
                                         </div>
+                                        <div class="text">
+                                            <h4><font color="white">Datacenters</font></h4>
+                                        </div>
                                         <div class="counter-text">
-                                            <h2 class="counter" data-count="220">1960</h2>
-                                            <h5>Free Trails</h5>
+                                            <h5>ATUALIZADOS</h5>
                                         </div>
                                     </div>
                                 </div>

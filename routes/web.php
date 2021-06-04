@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FranquiaFederalController;
+use App\Http\Controllers\MainController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +14,16 @@ use App\Http\Controllers\FranquiaFederalController;
 |
 */
 
-Route::name("franquiafederal.")->group(function () {
+// Grupo de Rotas do Controller "Main"
+Route::name('main.')->group(function (){
 
-    Route::get('/', [FranquiaFederalController::class, "index" ])
-        ->name('main.index');
+    Route::get('/', [ MainController::class, "index" ])
+        ->name('index');
+
+});
+Route::name('faq.')->group(function (){
+
+    Route::get('/faq', [ MainController::class, "faq" ])
+        ->name('faq.index');
 
 });

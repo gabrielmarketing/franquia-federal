@@ -44,7 +44,7 @@
                     </div>
                     <div class="pricing-table-content">
                             <hr>
-                            <h5><del>DE: R$ 5.000,00</del></h5>
+                            <h5>DE: R$ 5.000,00</h5>
                         <div class="pricing-content-price">
                             <sup>R$</sup>
                             <strong>1.300,00</strong>

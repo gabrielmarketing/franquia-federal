@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo" href="#">
+        <a class="navbar-brand logo" href="{{ route('main.index') }}">
             <img src="{{asset("assets/images/logo/logofranquia.png")}}" alt="">
         </a>
 
@@ -14,7 +14,7 @@
             <ul class="navbar-nav ml-auto">
                 <!--Nav Links-->
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-scroll-nav="0" >Home</a>
+                    <a href="{{ route('main.index') }}" class="nav-link" >Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" data-scroll-nav="1" >A Empresa</a>
